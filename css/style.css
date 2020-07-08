@@ -360,10 +360,10 @@ h2{
 }
 
 #line-e {
-  right: 0%;
-  top: 0;
-  transform-origin: 100% 0;
-  transform: rotate(-35deg);
+  right: -10%;
+  bottom: 0;
+  transform-origin: 0 0;
+  transform: rotate(-7deg);
   z-index:-1;
 }
 #line-e .overlay {
