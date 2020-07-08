@@ -344,6 +344,39 @@ h2{
   }
 }
 
+#line-d {
+  right: 10%;
+  bottom: 0;
+  transform-origin: 100% 0;
+  transform: rotate(30deg);
+  z-index:-1;
+}
+#line-d .overlay {
+  animation-delay: 0.7s;
+  background:#171717;
+}
+#line-d .line {
+  border-color: #7336e9;
+}
+
+#line-e {
+  right: 0%;
+  top: 0;
+  transform-origin: 100% 0;
+  transform: rotate(-35deg);
+  z-index:-1;
+}
+#line-e .overlay {
+  animation-delay: 1s;
+  background:#171717;
+}
+#line-e .line {
+  border-color: #dd24e9;
+}
+
+
+
+
 .ul-skills{
 	column-count: 2;
 	padding-left:25px;
