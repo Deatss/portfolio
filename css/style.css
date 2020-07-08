@@ -374,8 +374,33 @@ h2{
   border-color: #dd24e9;
 }
 
+#line-f {
+  left: 0;
+  top: 60%;
+  transform-origin: 0 0;
+  transform: rotate(-10deg);
+}
+#line-f .overlay {
+  animation-delay: 1s;
+  background:#1e1e1e;
+}
+#line-f .line {
+  border-color: #2a19b8;
+}
 
-
+#line-g {
+  right: 10%;
+  bottom: 0;
+  transform-origin: 100% 0;
+  transform: rotate(70deg);
+}
+#line-g .overlay {
+  animation-delay: 1s;
+  background:#1e1e1e;
+}
+#line-g .line {
+  border-color: #7a0ca7;
+}
 
 .ul-skills{
 	column-count: 2;
@@ -416,4 +441,22 @@ h2{
 	text-align: center;
 	padding-top:10px;
 	text-decoration:none;
+}
+
+.contact-wrap{
+	font-size:1.250rem;
+	text-align:center;
+	line-height: 3rem;
+}
+.contact-wrap a{
+	text-decoration: none;
+	color:#0094c5;
+}
+.contact-wrap a:hover{
+	text-decoration:underline;
+	color:#09c2ff;
+}
+.contact-wrap .fab{
+	font-size:2rem;
+	margin-left:10px;
 }
