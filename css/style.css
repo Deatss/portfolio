@@ -460,3 +460,110 @@ h2{
 	font-size:2rem;
 	margin-left:10px;
 }
+
+
+
+/*CSS for different devices*/
+@media only screen and (max-width: 1024px) {
+	.col-t-1 {width: 8.33%;}
+	.col-t-2 {width: 16.66%;}
+	.col-t-3 {width: 25%;}
+	.col-t-4 {width: 33.33%;}
+	.col-t-5 {width: 41.66%;}
+	.col-t-6 {width: 50%;}
+	.col-t-7 {width: 58.33%;}
+	.col-t-8 {width: 66.66%;}
+	.col-t-9 {width: 75%;}
+	.col-t-10 {width: 83.33%;}
+	.col-t-11 {width: 91.66%;}
+	.col-t-12 {width: 100%;}
+
+	body{
+		font-size:1.5rem;
+		line-height:2rem;
+	}
+
+  .t-hidden{
+  	display:none;
+  }
+  .line-reveal{
+  	display:none;
+  }
+  section{
+  	position:relative;
+  	overflow:auto;
+  	height:auto;
+  	min-height:350px;
+  	padding-bottom:50px;
+  }
+  .s-intro{
+  	height:100vh;
+  	padding-bottom:0;
+  }
+  #mountain{
+  	height:50%;
+  }
+  h1{
+  	font-size:2.5rem;
+  }
+  .about-text,.contact-wrap{
+  	font-size:1.5rem;
+  	line-height:2rem;
+  	height:auto;
+  }
+  .t-swap-to-2{
+  	order:2;
+  }
+  .t-swap-to-1{
+  	order:1;
+  }
+  .row{
+  	display:block;
+  }
+  .img-wrap{
+  	width:50%;
+  	height:400px;
+  	margin:auto;
+  }
+}
+@media only screen and (max-width: 520px) {
+
+	.col-m-1 {width: 8.33%;}
+	.col-m-2 {width: 16.66%;}
+	.col-m-3 {width: 25%;}
+	.col-m-4 {width: 33.33%;}
+	.col-m-5 {width: 41.66%;}
+	.col-m-6 {width: 50%;}
+	.col-m-7 {width: 58.33%;}
+	.col-m-8 {width: 66.66%;}
+	.col-m-9 {width: 75%;}
+	.col-m-10 {width: 83.33%;}
+	.col-m-11 {width: 91.66%;}
+	.col-m-12 {width: 100%;}
+
+
+	body{
+		font-size:1rem;
+		line-height:1.250rem;
+	}
+	.intro-msg{
+		font-size:1.5rem;
+	}
+	.msg-like{
+		line-height:4rem;
+		font-size:4rem;
+	}
+	#mountain{
+		background-size:cover;
+	}
+	.about-text, .contact-wrap{
+		font-size:1rem;
+		line-height:1.250rem;
+	}
+	.img-wrap{
+		height:200px;
+	}
+	h1{
+		font-size:2rem;
+	}
+}
