@@ -307,6 +307,7 @@ h2{
   top: 60%;
   transform-origin: 0 0;
   transform: rotate(-50deg);
+  z-index:-1;
 }
 #line-a .line {
   border-color: #640e91;
@@ -317,6 +318,7 @@ h2{
   bottom: 20%;
   transform-origin: 0 0;
   transform: rotate(-5deg);
+  z-index:-1;
 }
 #line-b .overlay {
   animation-delay: 0.5s;
@@ -330,6 +332,7 @@ h2{
   bottom: 0;
   transform-origin: 100% 0;
   transform: rotate(70deg);
+  z-index:-1;
 }
 #line-c .overlay {
   animation-delay: 1s;
@@ -448,11 +451,11 @@ h2{
 	text-align:center;
 	line-height: 3rem;
 }
-.contact-wrap a{
+.link{
 	text-decoration: none;
 	color:#0094c5;
 }
-.contact-wrap a:hover{
+.link:hover{
 	text-decoration:underline;
 	color:#09c2ff;
 }
