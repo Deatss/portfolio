@@ -23,9 +23,9 @@ var Utils = new Utils();
 
 $( document ).ready(function() {
     if ($(".section").hasClass("s-active")){
-    	console.log(1);
+    	// console.log(1);
     }else{
-    	console.log(2);
+    	// console.log(2);
     }
 
     (function() {
@@ -42,7 +42,7 @@ $( document ).ready(function() {
             // let _depth2 = `${50 - (_mouseX - _w) * 0.02}% ${50 - (_mouseY - _h) * 0.02}%`;
             // let _depth3 = `${50 - (_mouseX - _w) * 0.06}% ${50 - (_mouseY - _h) * 0.06}%`;
             let x = `${_depth1}`;
-            console.log(x);
+            // console.log(x);
             elem.style.backgroundPosition = x;
         }
 
@@ -108,8 +108,8 @@ $( document ).ready(function() {
             } else {
               // upscroll code
               // console.log("up");
-              console.log(scrollbar);
-              console.log(section4.top);
+            //   console.log(scrollbar);
+            //   console.log(section4.top);
 
 
               if ((scrollbar>-section4.top+1)&&(scrollbar<-section4.top+20)){
